@@ -10,12 +10,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Employee REST Controller
- * Exposes CRUD API endpoints for Employee management
- *
- * Base URL: http://localhost:8080/api/employees
- */
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeController {
